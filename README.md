@@ -2,6 +2,9 @@
 
 This repository contains a Java implementation of a basic cache system.
 
+Problem Statement:
+Design a 4-way set associative memory with page size of 4K for a computer with main memory size of 4G. The CPU has data width of 32 bytes and Cacheline is same as the CPU data width. you can use any software language you prefer to code the 4-way set associative cache controller. 
+
 Key features:
 
     Cache structure: 4-way set-associative cache with 32 sets
@@ -9,7 +12,6 @@ Key features:
     Address mapping: Implements logic for converting page and set numbers to 32-bit hexadecimal addresses
     Cache operations:
         Cache checking for data retrieval
-        (Placeholder for insertion and eviction logic)
 
 Demonstration:
 
